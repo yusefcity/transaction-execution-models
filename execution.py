@@ -109,3 +109,18 @@ metrics = {
     "length": len(encoded),
     "connected": runtime.connected,
 }
+
+for key in metrics:
+    print(key, metrics[key])
+
+summary = [
+    "interaction prepared",
+    "signature created",
+    "output exported",
+]
+
+for item in summary:
+    print(item)
+
+print("Execution complete")
+```
